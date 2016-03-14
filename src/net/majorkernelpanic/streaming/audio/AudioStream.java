@@ -93,7 +93,6 @@ public abstract class AudioStream  extends MediaStream {
 			fd = mSender.getFileDescriptor();
 		}
 		mMediaRecorder.setOutputFile(fd);
-		mMediaRecorder.setOutputFile(fd);
 
 		mMediaRecorder.prepare();
 		mMediaRecorder.start();
